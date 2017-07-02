@@ -26,6 +26,7 @@ class ComposerStaticInit53ca15eb6c2558f56b222206a2b9c6b7
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\Routing\\' => 26,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\Finder\\' => 25,
@@ -39,11 +40,16 @@ class ComposerStaticInit53ca15eb6c2558f56b222206a2b9c6b7
         ),
         'I' => 
         array (
+            'Illuminate\\View\\' => 16,
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Session\\' => 19,
+            'Illuminate\\Routing\\' => 19,
+            'Illuminate\\Pipeline\\' => 20,
             'Illuminate\\Http\\' => 16,
             'Illuminate\\Filesystem\\' => 22,
+            'Illuminate\\Events\\' => 18,
             'Illuminate\\Contracts\\' => 21,
+            'Illuminate\\Container\\' => 21,
         ),
         'D' => 
         array (
@@ -79,6 +85,10 @@ class ComposerStaticInit53ca15eb6c2558f56b222206a2b9c6b7
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
+        'Symfony\\Component\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/routing',
+        ),
         'Symfony\\Component\\HttpKernel\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/http-kernel',
@@ -107,6 +117,10 @@ class ComposerStaticInit53ca15eb6c2558f56b222206a2b9c6b7
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+        'Illuminate\\View\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/view',
+        ),
         'Illuminate\\Support\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/support',
@@ -114,6 +128,14 @@ class ComposerStaticInit53ca15eb6c2558f56b222206a2b9c6b7
         'Illuminate\\Session\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/session',
+        ),
+        'Illuminate\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/routing',
+        ),
+        'Illuminate\\Pipeline\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/pipeline',
         ),
         'Illuminate\\Http\\' => 
         array (
@@ -123,9 +145,17 @@ class ComposerStaticInit53ca15eb6c2558f56b222206a2b9c6b7
         array (
             0 => __DIR__ . '/..' . '/illuminate/filesystem',
         ),
+        'Illuminate\\Events\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/events',
+        ),
         'Illuminate\\Contracts\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/contracts',
+        ),
+        'Illuminate\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/container',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
