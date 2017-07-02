@@ -3,30 +3,31 @@ namespace PlatziPHP\Http\Controllers;
 
 use Illuminate\Http\Request;
 use PlatziPHP\Author;
+use PlatziPHP\FakeDatabase;
 use PlatziPHP\Http\Views\View;
 use PlatziPHP\Post;
 
 class HomeController
 {
+    /**
+     * @type FakeDatabase
+     */
+    private $db;
+
+    public function __construct(FakeDatabase $db)
+    {
+        $this->db = $db;
+    }
+
     public function index(Request $request)
     {
-        $author = new Author(
-            'yeyoror@gmail.com',
-            'qwerty',
-            'AUTOR_DE_PLATZI'
-        );
+        $posts = $this->db->posts();
 
-        $author->setName('Txus','Black');
-
-        $posts = [
-            new Post($author,'Post #1','This is the first post'),
-            new Post($author,'Post #2','This is the second post'),
-            new Post($author,'Post #3','This is the third post'),
-            new Post($author,'Post #4','This is the fourth post'),
-        ];
+        $first = $posts->first();
 
         $view = new View('home', [
-            'posts' => $posts
+            'posts' => $posts,
+            'firstPost' => $first
         ]);
 
         $response = $view->render();

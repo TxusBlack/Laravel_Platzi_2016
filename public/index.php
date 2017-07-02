@@ -6,6 +6,6 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 
 $request = Request::capture();
-$controller = new HomeController();
+$controller = new HomeController(new \PlatziPHP\FakeDatabase());
 
 $controller->index($request);
