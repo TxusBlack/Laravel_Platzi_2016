@@ -47,7 +47,12 @@ class View
     {
         if(file_exists($path)) {
             extract($params);
-            include $path;
+
+            // Se guarda en un buffer de salida
+            ob_start();
+            require $path;
+
+            return ob_get_clean();
         }
     }
 }
