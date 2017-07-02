@@ -1,13 +1,15 @@
 <?php
 namespace PlatziPHP\Http\Controllers;
 
+use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 use PlatziPHP\Author;
 use PlatziPHP\FakeDatabase;
 use PlatziPHP\Http\Views\View;
 use PlatziPHP\Post;
 
-class HomeController
+class HomeController extends Controller
 {
     /**
      * @type FakeDatabase
@@ -30,8 +32,17 @@ class HomeController
             'firstPost' => $first
         ]);
 
-        $response = $view->render();
+        return $view->render();
+    }
 
-        $response->send();
+    public function show($id)
+    {
+        $posts = $this->db->posts();
+
+        $view = new View('post_details', [
+            'post' => $posts->get($id)
+        ]);
+
+        return $view->render();
     }
 }
