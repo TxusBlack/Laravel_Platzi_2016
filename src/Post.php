@@ -25,6 +25,11 @@ class Post
         $this->body = $body;
     }
 
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
     public function getBody()
     {
         return $this->body;
