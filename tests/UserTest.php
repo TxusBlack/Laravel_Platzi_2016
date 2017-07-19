@@ -7,9 +7,9 @@ class UserTest extends PHPUnit_Framework_TestCase
      */
     function it_should_be_able_to_construct ()
     {
-        $user = new \PlatziPHP\User('fake@mail.dev','platzi');
+        $user = new \PlatziPHP\Domain\User('fake@mail.dev','platzi');
 
-        $this->assertInstanceOf(\PlatziPHP\User::class, $user);
+        $this->assertInstanceOf(\PlatziPHP\Domain\User::class, $user);
     }
 
     /**
@@ -17,7 +17,7 @@ class UserTest extends PHPUnit_Framework_TestCase
      */
     function it_should_have_a_first_name()
     {
-        $user = new \PlatziPHP\User('email@email.com','pass');
+        $user = new \PlatziPHP\Domain\User('email@email.com','pass');
 
         $user->setName('Diego','Moreno');
 

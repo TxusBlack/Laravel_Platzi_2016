@@ -66,6 +66,7 @@
     <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
+          <root url="file://C:/laragon/www/cms.fundacion/wordpress" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
@@ -116,6 +117,7 @@
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
         </CLASSES>
         <SOURCES>
+          <root url="file://C:/laragon/www/cms.fundacion/wordpress" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
@@ -177,6 +179,8 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="clase2" />
+    <orderEntry type="module" module-name="cms.fundacion" />
+    <orderEntry type="module" module-name="fundacion" />
+    <orderEntry type="module" module-name="prueba-php" />
   </component>
 </module>
