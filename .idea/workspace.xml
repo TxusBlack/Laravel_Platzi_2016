@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05b0a3cb-7a19-4a9d-9436-54ad3b14ddf0" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FakeDatabase.php" afterPath="$PROJECT_DIR$/src/Infrastructure/FakeDatabase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/Imprint.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/src/Http/Controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Infrastructure/FakeDatabase.php" afterPath="$PROJECT_DIR$/src/Infrastructure/FakeDatabase.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +38,8 @@
       <file leaf-file-name="FakeDatabase.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Infrastructure/FakeDatabase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
               <folding>
                 <element signature="e#43#77#0#PHP" expanded="true" />
               </folding>
@@ -46,14 +47,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Imprint.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Domain/Imprint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding>
-                <element signature="e#45#83#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,8 +111,9 @@
         <option value="C:/laragon/www/prueba-php/src/Application.php" />
         <option value="C:/laragon/www/prueba-php/src/Domain/User.php" />
         <option value="C:/laragon/www/prueba-php/src/Domain/Author.php" />
-        <option value="$PROJECT_DIR$/src/Infrastructure/FakeDatabase.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Imprint.php" />
         <option value="$PROJECT_DIR$/src/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/src/Infrastructure/FakeDatabase.php" />
       </list>
     </option>
   </component>
@@ -272,6 +282,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domain" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -363,12 +391,12 @@
       <workItem from="1498868044294" duration="21656000" />
       <workItem from="1499306618684" duration="23994000" />
       <workItem from="1500005307437" duration="11339000" />
-      <workItem from="1500499446927" duration="2106000" />
+      <workItem from="1500499446927" duration="3644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64967000" />
+    <option name="totallyTimeSpent" value="66505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,13 +467,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/GitHub/Sistema-Ventas/app/models/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3128">
-          <caret line="184" column="26" lean-forward="false" selection-start-line="184" selection-start-column="26" selection-end-line="184" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/GitHub/Sistema-Ventas/app/models/clients.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -806,20 +827,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/Imprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#45#83#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Infrastructure/FakeDatabase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        <state relative-caret-position="459">
+          <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
           <folding>
             <element signature="e#43#77#0#PHP" expanded="true" />
           </folding>
