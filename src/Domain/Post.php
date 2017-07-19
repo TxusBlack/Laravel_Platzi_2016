@@ -3,6 +3,9 @@ namespace PlatziPHP\Domain;
 
 class Post
 {
+    /**
+     * @var int
+     */
     private $id;
     /**
      * @parm Author
@@ -19,7 +22,7 @@ class Post
      */
     private $body;
 
-    public function __construct($authorId, $title, $body, $id)
+    public function __construct($authorId, $title, $body, $id = null)
     {
         $this->author = $authorId;
         $this->title = $this;
